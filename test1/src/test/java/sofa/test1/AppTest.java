@@ -1,5 +1,6 @@
 package sofa.test1;
 
+import junit.framework.Assert;
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
@@ -33,6 +34,9 @@ public class AppTest
      */
     public void testApp()
     {
-        assertTrue( false );
+        assertTrue(true );
+        
+        Boolean test = false;
+        Assert.assertTrue(test);
     }
 }
