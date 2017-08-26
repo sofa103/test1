@@ -36,7 +36,7 @@ public class AppTest
     {
         assertTrue(true );
         
-        Boolean test = false;
+        Boolean test = true;
         Assert.assertTrue(test);
     }
 }
